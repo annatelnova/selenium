@@ -19,7 +19,7 @@ public class GmailTest extends WebDriverTestBase {
     private final String login = "herdamre@gmail.com";
     private final String password = "10stepsinua";
 
-    @Test
+    @Test (enabled = false)
     public void searchTest() {
        // тут можно создать локальную переменную, которая будет использована только в середине этого метода
         GooglePage openGooglePage = new GooglePage(webDriver);

@@ -14,8 +14,7 @@ public class GoogleBasepage {
         this.webDriver = webDriver;
         webDriverUtil = new WebDriverUtil(webDriver);
 
-    }
-
+  }
     public void open (String url){
         webDriver.get (url);
     }

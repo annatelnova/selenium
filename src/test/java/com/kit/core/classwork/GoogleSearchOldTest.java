@@ -7,6 +7,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+import ru.yandex.qatools.allure.annotations.Features;
+import ru.yandex.qatools.allure.annotations.Stories;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -17,6 +19,8 @@ import static org.testng.Assert.assertTrue;
 /**
  * Created by Мир on 02.06.2017.
  */
+@Features("GoogleSearch")
+@Stories({"WEB-888"})
 public class GoogleSearchOldTest extends WebDriverTestBase {
     private String googleSearch  = "https://www.google.com.ua/";
 
